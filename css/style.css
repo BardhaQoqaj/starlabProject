@@ -19,14 +19,16 @@
    color:var(--black);
 }
 
-*::selection{
-   background-color: var(--black);
-   color:var(--yellow);
-}
+
 
 *::-webkit-scrollbar{
    height: .5rem;
    width: 1rem;
+}
+
+*::selection{
+   background-color: var(--black);
+   color:var(--yellow);
 }
 
 *::-webkit-scrollbar-track{
