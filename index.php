@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- header section -->
+    <!-- header  -->
    <header class="header">
    <div id="menu-btn" class="fas fa-bars"></div>
 
@@ -32,6 +32,23 @@
       <a href="#" class="fab fa-github"></a>
    </div>
    </header>
+
+   <!-- home -->
+   <section class="home" id="home">
+
+   <div class="image" data-aos="fade-right">
+      <img src="images/AvatarMaker.png" alt="">
+      <img src="images/AvatarMaker.png" alt="">
+      <img src="images/AvatarMaker.png" alt="">
+   </div>
+   <div class="content">
+      <h3 data-aos="fade-up">hiii, I'm Fatbardha</h3>
+      <span data-aos="fade-up">Web designer & developer</span>
+      <p data-aos="fade-up">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis labore recusandae minima molestias aliquam nostrum.</p>
+      <a data-aos="fade-up" href="#about" class="btn">about me</a>
+   </div>
+
+</section>
 
 
 
