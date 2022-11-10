@@ -5,8 +5,8 @@
    --black:#000;
    --white:#fff;
    --light-bg:#eee;
-   --border-bold:.5rem solid var(--black);
-   --border-light:.2rem solid var(--black);
+   --border-bold:.5rem solid var(--white);
+   --border-light:.2rem solid var(--white);
 }
 
 *{
@@ -16,11 +16,12 @@
    outline: none; border:none;
    text-decoration: none;
    text-transform: capitalize;
-   color:var(--black);
+   color:var(--white);
+   background-color: black;
 }
 
 *::selection{
-   background-color: var(--black);
+   background-color: var(--white);
    color:var(--blue);
 }
 
@@ -43,6 +44,7 @@
 }
 
 body{
+   
    overflow: hidden;
    transition: .2s linear !important;
 }
@@ -69,7 +71,7 @@ section{
 }
 
 .btn:hover{
-   background-color: var(--black);
+   background-color: var(--blue);
    color:var(--white);
 }
 
@@ -78,7 +80,7 @@ section{
    position: fixed;
    top:0; left:-35rem;
    height: 100vh;
-   background-color: var(--white);
+   background-color: #989898;
    border-right: var(--border-bold);
    width: 35rem;
    padding:3rem 2rem;
@@ -96,13 +98,14 @@ section{
 
 .header .logo{
    text-transform: uppercase;
-   border-bottom: var(--border-bold);
+   background-color: #989898;
    font-weight: bolder;
-   font-size: 4.5rem;
+   font-size: 3.5rem;
 }
 
 .header .navbar{
    width: 100%;
+   
 }
 
 .header .navbar a{
@@ -110,6 +113,7 @@ section{
    font-size: 2.5rem;
    padding:1.5rem;
    margin:.5rem;
+   background-color: #989898;
 } 
 
 .header .navbar a.active,
@@ -122,10 +126,12 @@ section{
    margin:0 1rem;
    cursor: pointer;
    transition: .6s linear !important;
+   
 }
 
 .header .follow a:hover{
    transform: rotate(360deg);
+   
 }
 
 #menu-btn{
@@ -136,7 +142,7 @@ section{
    width: 5rem;
    font-size: 2.5rem;
    cursor: pointer;
-   background-color: var(--black);
+   background-color: var(--blue);
    color:var(--white);
 }
 
@@ -156,11 +162,6 @@ section{
    flex:1 1 40rem;
 } 
 
-/* .home .image img{
-   height: 65rem;
-   padding:2rem;
-   
-} */
 
 .home .content{
    flex:1 1 40rem;
@@ -223,6 +224,145 @@ section{
    opacity: 0.4;
  }
 
+ .heading {
+   font-size: 4rem;
+ }
+ 
+.about .row-1{
+   display: flex;
+   flex-wrap: wrap;
+   gap:1.5rem;
+   padding-bottom: 2rem;
+}
+
+.about .row-1 .image{
+   flex:1 1 10rem;
+}
+
+.about .row-1 .image img{
+   height: 80%;
+   width:100%;
+   border-radius: .5rem;
+   
+}
+
+.about .row-1 .content{
+   flex:1 1 50rem;
+   margin-top:200px;
+   
+}
+
+.about .row-1 .content h3{
+   color:var(--blue);
+   font-size: 3.5rem;
+   margin-top:20px;
+}
+
+.about .row-1 .content p{
+   color:white;
+   font-size: 1.7rem;
+   padding:.2rem 0;
+   margin-top:50px;
+}
+
+.about .row-1 .content .box-container{
+   display: flex;
+   flex-wrap: wrap;
+   gap:1.5rem;
+   padding: 0.5rem 0;
+}
+
+.about .row-1 .content .box-container .box{
+   flex:1 1 20rem;
+}
+
+.about .row-1 .content .box-container .box span{
+   color:var(--blue);
+}
+
+.about .row-2{
+   display: flex;
+   flex-wrap: wrap;
+   gap:1.5rem;
+   align-items: center;
+}
+
+.about .row-2 .skills{
+   flex:1 1 40rem;
+}
+
+.about .row-2 .skills .progress{
+   padding:1rem 0;
+}
+
+.about .row-2 .skills .progress h3{
+   display: flex;
+   justify-content: space-between;
+   padding:.20rem 0;
+   font-size: 1.7rem;
+   color:var(--white);
+   font-weight: 400;
+}
+
+.about .row-2 .skills .progress .bar{
+   width:100%;
+   background:white;
+   overflow:hidden;
+   height:1rem;
+   border-radius: 50rem;
+}
+
+.about .row-2 .skills .progress .bar span{
+   display:block;
+   height:100%;
+   background:var(--blue);
+   border-radius: 50rem;
+}
+
+.about .row-2 .skills .progress:nth-child(1) .bar span{
+   width:95%;
+}
+
+.about .row-2 .skills .progress:nth-child(2) .bar span{
+   width:80%;
+}
+
+.about .row-2 .skills .progress:nth-child(3) .bar span{
+   width:75%;
+}
+
+.about .row-2 .skills .progress:nth-child(4) .bar span{
+   width:85%;
+}
+
+.about .row-2 .box-container{
+   flex:1 1 40rem;
+   display: flex;
+   flex-wrap: wrap;
+   gap:1.5rem;
+}
+
+.about .row-2 .box-container .box{
+   flex:1 1 15rem;
+   background: #989898;
+   padding:5rem;
+   border-radius: .2rem;
+   box-shadow:white;
+}
+
+.about .row-2 .box-container .box h3{
+   color:var(--main-color);
+   font-size: 3rem;
+}
+
+.about .row-2 .box-container .box p{
+   color:#666;
+   font-size: 1.7rem;
+   padding-top: .5rem;
+}
+
+
+
 @media (max-width:991px){
 
    html{
@@ -253,6 +393,7 @@ section{
       width: 100%;
    }
 
+  
    .heading span{
       font-size: 4rem;
    }
