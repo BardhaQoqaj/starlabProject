@@ -17,7 +17,7 @@
    text-decoration: none;
    text-transform: capitalize;
    color:var(--white);
-   background-color: black;
+   background-color:#333333;
 }
 
 *::selection{
@@ -100,7 +100,7 @@ section{
    text-transform: uppercase;
    background-color: #989898;
    font-weight: bolder;
-   font-size: 3.5rem;
+   font-size: 2rem;
 }
 
 .header .navbar{
@@ -121,7 +121,7 @@ section{
    background-color: var(--blue);
 }
 
-.header .follow a{
+/* .header .follow a{
    font-size: 3rem;
    margin:0 1rem;
    cursor: pointer;
@@ -132,7 +132,86 @@ section{
 .header .follow a:hover{
    transform: rotate(360deg);
    
+} */
+
+
+.header .follow ul{
+   display: flex;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 3rem;
+   margin:0 1rem;
+   cursor: pointer;
+   margin-top: 100%;
+   
+   
 }
+.header .follow ul li {
+   list-style: none;
+ }
+ 
+ .header .follow ul li a {
+   width: 80px;
+   height: 80px;
+   background-color: #fff;
+   text-align: center;
+   line-height: 80px;
+   font-size: 35px;
+   margin: 0 10px;
+   display: block;
+   border-radius: 50%;
+   position: relative;
+   overflow: hidden;
+   border: 3px solid #fff;
+   z-index: 1;
+ }
+ 
+ .header .follow ul li a .icon {
+   position: relative;
+   color: #262626;
+   transition: .5s;
+   z-index: 3;
+ }
+ 
+ .header .follow ul li a:hover .icon {
+   color: #fff;
+   transform: rotateY(360deg);
+ }
+ 
+ .header .follow ul li a:before {
+   content: "";
+   position: absolute;
+   top: 100%;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: #f00;
+   transition: .5s;
+   z-index: 2;
+ }
+ 
+ .header .follow  li a:hover:before {
+   top: 0;
+ }
+ 
+ .header .follow ul li:nth-child(1) a:before{
+   background: #3b5999;
+ }
+ 
+ .header .follow ul li:nth-child(2) a:before{
+   background: #55acee;
+ }
+ 
+ .header .follow ul li:nth-child(3) a:before {
+   background: #0077b5;
+ }
+ 
+ .header .follow  ul li:nth-child(4) a:before {
+   background: #dd4b39;
+ }
+
 
 #menu-btn{
    position: absolute;
@@ -196,13 +275,13 @@ section{
    background: rgba(192, 145, 145, 0);
    transition: 0.5s;
    flex:1 1 40rem;
-   
+   border:white;
  }
  .image img {
    position: absolute; 
    width: 100%;
    transition: 0.5s;
-   border-radius: 0 50% 50% 50%;
+   border-radius: 40px 40px 0 0;
    padding:2rem;
    height: 65rem;
    right:80px;
@@ -237,12 +316,13 @@ section{
 
 .about .row-1 .image{
    flex:1 1 10rem;
+   
 }
 
 .about .row-1 .image img{
-   height: 80%;
+   height: 70%;
    width:100%;
-   border-radius: .5rem;
+   border-radius: 50%;
    
 }
 
@@ -324,15 +404,21 @@ section{
 }
 
 .about .row-2 .skills .progress:nth-child(2) .bar span{
-   width:80%;
+   width:90%;
 }
 
 .about .row-2 .skills .progress:nth-child(3) .bar span{
-   width:75%;
+   width:95%;
 }
 
 .about .row-2 .skills .progress:nth-child(4) .bar span{
-   width:85%;
+   width:95%;
+}
+.about .row-2 .skills .progress:nth-child(5) .bar span{
+   width:95%;
+}
+.about .row-2 .skills .progress:nth-child(6) .bar span{
+   width:95%;
 }
 
 .about .row-2 .box-container{
@@ -360,7 +446,52 @@ section{
    font-size: 1.7rem;
    padding-top: .5rem;
 }
+.about .edu-exp{
+   margin-top: 150px;
+   
+}
 
+.about .edu-exp .row{
+   display: flex;
+   flex-wrap: wrap;
+   gap:1.5rem;
+   
+}
+
+.about .edu-exp .row .box-container{
+   flex:1 1 40rem;
+}
+
+.about .edu-exp .row .box-container .title{
+   padding:1.5rem;
+   font-size: 3rem;
+   background-color: var(--blue);
+}
+
+.about .edu-exp .row .box-container .box{
+   text-align: left;
+   margin:1.5rem 0;
+   background-color:#989898 ;
+   padding:2rem;
+}
+
+.about .edu-exp .row .box-container .box span{
+   font-size: 1.5rem;
+}
+
+.about .edu-exp .row .box-container .box h3{
+   font-size: 1.5rem;
+   font-weight: normal;
+   margin-top: 1.5rem;
+   margin-bottom: 1rem;
+   
+}
+
+.about .edu-exp .row .box-container .box p{
+   line-height: 1.5;
+   font-size: 1.7rem;
+   line-height: 2;
+}
 
 
 @media (max-width:991px){

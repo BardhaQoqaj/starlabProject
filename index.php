@@ -17,20 +17,33 @@
 <a href="#home" class="logo">Fatbardha Çoçaj</a>
 
 <nav class="navbar">
-   <a href="#home" class="active">home</a>
+   <a href="#home">home</a>
    <a href="#about">about</a>
    <a href="#services">services</a>
    <a href="#portfolio">portfolio</a>
    <a href="#contact">contact</a>
 </nav>
-
 <div class="follow">
+<ul>
+  <li> <a href="#">
+      <i class="fab fa-facebook-f icon"></i>    </a>
+  </li>
+  <li>
+    <a href="#"><i class="fab fa-twitter icon"></i></a>
+  </li>
+  <li>
+    <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+  <li>
+    <a href="#"><i class="fab fa-google-plus-g icon"></i></a></li>
+</ul>
+</div>
+<!-- <div class="follow">
       <a href="#" class="fab fa-facebook-f"></a>
       <a href="#" class="fab fa-twitter"></a>
       <a href="#" class="fab fa-instagram"></a>
       <a href="#" class="fab fa-linkedin"></a>
       <a href="#" class="fab fa-github"></a>
-   </div>
+   </div> -->
    </header>
 
    <!-- home -->
@@ -58,7 +71,7 @@
 <div class="row-1">
 
     <div class="image">
-        <img src="images/about1.jpg" alt="">
+        <img src="images/abbout.jpg" alt="">
     </div>
 
     <div class="content">
@@ -94,19 +107,19 @@
             <div class="bar"> <span></span> </div>
         </div>
         <div class="progress">
-            <h3> web development <span> 80% </span> </h3>
+            <h3> web development <span> 90% </span> </h3>
             <div class="bar"> <span></span> </div>
         </div>
         <div class="progress">
-            <h3> UI design <span> 84% </span> </h3>
+            <h3> UI design <span> 90% </span> </h3>
             <div class="bar"> <span></span> </div>
         </div>
         <div class="progress">
-            <h3> Database Management <span> 85% </span> </h3>
+            <h3> Database Management <span> 95% </span> </h3>
             <div class="bar"> <span></span> </div>
         </div>
         <div class="progress">
-            <h3> Project management  <span> 85% </span> </h3>
+            <h3> Project management  <span> 95% </span> </h3>
             <div class="bar"> <span></span> </div>
         </div>
         <div class="progress">
@@ -132,6 +145,67 @@
         </div>
 
     </div>
+    <div class="edu-exp">
+
+      <h1 class="heading" data-aos="fade-up"> <span>education & training</span> </h1>
+
+      <div class="row">
+
+         <div class="box-container">
+
+            <h3 class="title" data-aos="fade-right">education</h3>
+
+            <div class="box" data-aos="fade-right">
+               <span>( 2017 - 2019 )</span>
+               <h3>High School - Xhevdet Doda	</h3>
+               <p>Good student with an average grade of 5.0 out of 5.0</p>
+            </div>
+
+            <div class="box" data-aos="fade-right">
+               <span>( 2020 )</span>
+               <h3>University of Business and Technology , UBT</h3>
+               <p>Third year student - computer science with
+                  average grade 8.44</p>
+            </div>
+
+            <div class="box" data-aos="fade-right">
+               <span>( 2020  )</span>
+               <h3>AUK- American University of Kosovo</h3>
+               <p>Introduction to Cybersecurity: This course covers topics such as: Global implications of cyber threats, Cisco's approach to threat detection and protection.</p>
+            </div>
+
+         </div>
+
+         <div class="box-container">
+
+            <h3 class="title" data-aos="fade-left">training</h3>
+
+            <div class="box" data-aos="fade-left">
+               <span>( 2022  )</span>
+               <h3>XAMK South Eastern Finland University</h3>
+               <p>Introduction to Video Games Creation 2022-cont
+                This course covers topics such as: History of Games, Ideation and Value Creation,
+                 Artificial Intelligence for Games, Game Concept Design, Unity, game programming.</p>
+            </div>
+
+            <div class="box" data-aos="fade-left">
+               <span>( 2022)</span>
+               <h3>Udemy</h3>
+               <p>This course covers topics such as: Introduction to .Net Core, creating Cruds, Routing, User Interface styling, Image Upload..</p>
+            </div>
+
+            <div class="box" data-aos="fade-left">
+               <span>( 2021 - 2022 )</span>
+               <h3>AUK- American University of Kosovo</h3>
+               <p>Cybersecurity Essentials
+• This course covers topics such as: principles of confidentiality, integrity, technologies, procedures used to protect confidentiality.</p>
+            </div>
+
+         </div>
+
+      </div>
+
+   </div>
 
 </div>
 
