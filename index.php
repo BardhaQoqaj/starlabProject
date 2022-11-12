@@ -19,7 +19,6 @@
 <nav class="navbar">
    <a href="#home">home</a>
    <a href="#about">about</a>
-   <a href="#services">services</a>
    <a href="#portfolio">portfolio</a>
    <a href="#contact">contact</a>
 </nav>
@@ -153,7 +152,7 @@
 
          <div class="box-container">
 
-            <h3 class="title" data-aos="fade-right">education</h3>
+            
 
             <div class="box" data-aos="fade-right">
                <span>( 2017 - 2019 )</span>
@@ -178,7 +177,7 @@
 
          <div class="box-container">
 
-            <h3 class="title" data-aos="fade-left">training</h3>
+            
 
             <div class="box" data-aos="fade-left">
                <span>( 2022  )</span>
@@ -198,7 +197,7 @@
                <span>( 2021 - 2022 )</span>
                <h3>AUK- American University of Kosovo</h3>
                <p>Cybersecurity Essentials
-• This course covers topics such as: principles of confidentiality, integrity, technologies, procedures used to protect confidentiality.</p>
+               This course covers topics such as: principles of confidentiality, integrity, technologies, procedures used to protect confidentiality.</p>
             </div>
 
          </div>
@@ -211,6 +210,69 @@
 
 </section>
 
+<!-- portfolio   -->
+
+<section class="portfolio" id="portfolio">
+
+   <div class="box-container">
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/BootStrap.png" alt="">
+         <h3>BootStrap</h3>
+        
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/css.png" alt="">
+         <h3>Css</h3>
+     
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/html.jpg" alt="">
+         <h3>Html</h3>
+        
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/Java.jpg" alt="">
+         <h3>Java</h3>
+       
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/JavaScript.png" alt="">
+         <h3>Java Script</h3>
+        
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/MySQL-Logo.png" alt="">
+         <h3>MySQL</h3>
+        
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/net.png" alt="">
+         <h3>.Net Core</h3>
+         
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/Python.png" alt="">
+         <h3>Python</h3>
+       
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/uiux.png" alt="">
+         <h3>Ui/Ux Design </h3>
+         
+      </div>
+
+   </div>
+
+</section>
 
 
 

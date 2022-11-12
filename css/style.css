@@ -266,17 +266,17 @@ section{
    padding:1rem 0;
 }
 
-
 .image {
    position: relative;
-   width: 760px;
-   height: 840px;
+   width: 660px;
+   height: 660px;
    margin-top: 150px;
    background: rgba(192, 145, 145, 0);
    transition: 0.5s;
    flex:1 1 40rem;
    border:white;
  }
+
  .image img {
    position: absolute; 
    width: 100%;
@@ -434,17 +434,20 @@ section{
    padding:5rem;
    border-radius: .2rem;
    box-shadow:white;
+   
 }
 
 .about .row-2 .box-container .box h3{
    color:var(--main-color);
    font-size: 3rem;
+   
 }
 
 .about .row-2 .box-container .box p{
-   color:#666;
+   color:black;
    font-size: 1.7rem;
    padding-top: .5rem;
+   background: #989898;
 }
 .about .edu-exp{
    margin-top: 150px;
@@ -460,12 +463,14 @@ section{
 
 .about .edu-exp .row .box-container{
    flex:1 1 40rem;
+   
 }
 
 .about .edu-exp .row .box-container .title{
    padding:1.5rem;
    font-size: 3rem;
    background-color: var(--blue);
+   
 }
 
 .about .edu-exp .row .box-container .box{
@@ -492,6 +497,56 @@ section{
    font-size: 1.7rem;
    line-height: 2;
 }
+
+/* .services {
+
+ .services.image-container .image img:nth-of-type(1) {
+   filter: grayscale(1) brightness(40%);
+ }
+ .services.image-container .image img:nth-of-type(2) {
+   -webkit-clip-path: var(--clip-start);
+           clip-path: var(--clip-start);
+   transition: -webkit-clip-path 0.5s;
+   transition: clip-path 0.5s;
+   transition: clip-path 0.5s, -webkit-clip-path 0.5s;
+ }
+ .services.image-container .image:hover img:nth-of-type(2) {
+   -webkit-clip-path: var(--clip-end);
+           clip-path: var(--clip-end);
+ } */
+
+ 
+
+.portfolio .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+   gap:1.5rem;
+   align-items: flex-start;
+}
+
+.portfolio .box-container .box img{
+   height: 90px;
+   width: 90px;
+   
+}
+
+.portfolio .box-container .box h3{
+   margin:1rem 0;
+   font-size: 2rem;
+   font-weight: normal;
+}
+
+.portfolio .box-container .box span{
+   font-size: 1.7rem;
+}
+
+.portfolio .box-container:hover .box {
+   opacity: .2;
+}
+.portfolio .box-container .box:hover{
+   opacity: 1;
+}
+
 
 
 @media (max-width:991px){
