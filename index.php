@@ -66,7 +66,7 @@ if(isset($message)){
    <div class="content">
       <h3 data-aos="fade-up">hiii, I'm Fatbardha 👋</h3>
       <span data-aos="fade-up">Web designer & developer</span>
-      <p data-aos="fade-up">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis labore recusandae minima molestias aliquam nostrum.</p>
+      <p data-aos="fade-up">--------------------------</p>
       <a data-aos="fade-up" href="#about" class="btn">about me</a>
    </div>
 
